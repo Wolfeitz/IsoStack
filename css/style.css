@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    font-family: Arial;
+    font-size: 8pt;
+    color: Black;
+    background-color: Green;
+}
+
+body, div, p, h1, h2, h3, h4, ul, li, table {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
