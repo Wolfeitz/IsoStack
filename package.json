@@ -4,7 +4,7 @@
   "description": "This is Robs stack.  There are many stacks like it but this one is mine.",
   "repository": {
     "type": "git",
-    "url": "https://www.dropbox.com/home/Git/parts.git"
+    "url": "https://github.com/Wolfeitz/IsoStack.git"
     },
   "main": "lib/server/server.js",
   "scripts": {

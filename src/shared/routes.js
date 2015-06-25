@@ -11,7 +11,6 @@ import NsnListHandler from './pages/NSN';
 let Routes = (  
 	<Route name="app" handler={ AppHandler } path="/">
 		<Route name="favicon" path="/favicon.ico"/>,
-		<Route name="css" path="/css/style.css"/>,
 		<Route name="login" path="/login" handler={LoginHandler}/>,
 		<Route name="contactus" path="/contactus" handler={ContactHandler}/>,
 		<Route name="nsn" path="/NSN" handler={NsnListHandler}/>,
