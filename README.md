@@ -20,19 +20,20 @@ Git
 Node
 
  In the project's directory, run the following commands:
-+```
-+$ npm install
-+$ npm start
-+```
- 
-+In Windows npm can not yet run operation in parallel so we add in npm-run-all<br />
-+Change the start command in package.json to:<br />
-+"start": "npm-run-all --parallel watch-js dev-server server",
- ```
+```
  $ npm install
-+$ npm install --save-dev npm-run-all
  $ npm start
- ```
+```
+ 
+In Windows npm can not yet run operation in parallel so we add in npm-run-all<br />
+Change the start command in package.json to:<br />
+"start": "npm-run-all --parallel watch-js dev-server server",
+
+```
+ $ npm install
+ $ npm install --save-dev npm-run-all
+ $ npm start
+```
 
 When the servers are started, visit `http://localhost:3000` to see a Hello world page.
 
@@ -52,4 +53,4 @@ When the servers are started, visit `http://localhost:3000` to see a Hello world
 
 ## Thanks
 
-This repo was heavily inspired by [jmfurlott](http://github.com/jmfurlott) and his [react isomorphic boilerplate](https://github.com/jmfurlott/react-isomorphic-boilerplate) 
+This repo was based on [react isomorphic boilerplate](https://github.com/jmfurlott/react-isomorphic-boilerplate) by [jmfurlott](http://github.com/jmfurlott)
