@@ -7,6 +7,8 @@ import LoginHandler from './pages/Login';
 import ContactHandler from './pages/ContactUs';
 import NsnDetailHandler from './pages/NSNDetail';
 import NsnListHandler from './pages/NSN';
+//import TableHandler from './pages/Tablex';
+// <Route name="Table" path="/Table" handler={TableHandler}/>
 
 let Routes = (  
 	<Route name="app" handler={ AppHandler } path="/">

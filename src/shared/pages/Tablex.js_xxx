@@ -1,0 +1,37 @@
+import React from 'react';
+import Flux from 'flux';
+import Table from "../components/TableR.js";
+import request from 'superagent';
+import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
+
+
+/*request
+  .get('http://jsonplaceholder.typicode.com/posts')
+  .end(function(err, res) { 
+    React.render( 
+        <Table data={res.body}/>, 
+        document.getElementById("app")
+    );
+});
+
+
+
+let Jsoninfo = Flux.createStore({
+  init: function(){
+    this.ratedList =[];
+  },
+  getRatedMovies: function(){
+    var self = this;
+    Request
+    .get('http://jsonplaceholder.typicode.com/posts')
+    .end(function(err, res) {
+      if(res.body && res.body.results) {
+        self.ratedList = res.body.results;
+        self.trigger(self.ratedList);
+      }
+    });
+    return (<Table data={res.body}/>);
+  }
+});
+
+module.exports = Jsoninfo;*/

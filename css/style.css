@@ -1,13 +1,32 @@
-html, body {
-    height: 100%;
-    font-family: Arial;
-    font-size: 8pt;
-    color: Black;
-    background-color: Green;
-}
-
-body, div, p, h1, h2, h3, h4, ul, li, table {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: purple;
+  background-color: #d8da3d }
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: blue }
+a:visited {
+  color: purple }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
